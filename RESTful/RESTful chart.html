@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RESTful Routes Chart</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4 font-weight-bold">RESTful Routes</h1>
+      <p style="font-size: 1.2rem;">A table of all 7 RESTful routes</p>
+    </div>
+
+    <table class="table table-bordered table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Path</th>
+          <th scope="col">HTTP Verb</th>
+          <th scope="col">Purpose</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- <th scope="row">1</th> -->
+          <td>Index</td>
+          <td>/dogs</td>
+          <td>GET</td>
+          <td>List all dogs</td>
+        </tr>
+        <tr class="table-success">
+          <td>New</td>
+          <td>/dogs/new</td>
+          <td>GET</td>
+          <td>Show new dog form</td>
+        </tr>
+        <tr class="table-success">
+          <td>Create</td>
+          <td>/dogs</td>
+          <td>POST</td>
+          <td>Create a new dog, then redirect somewhere</td>
+        </tr>
+        <tr class="table-info">
+          <td>Show</td>
+          <td>/dogs/:id</td>
+          <td>GET</td>
+          <td>Show info about one specific dog</td>
+        </tr>
+        <tr class="table-warning">
+          <td>Edit</td>
+          <td>/dogs/:id/edit</td>
+          <td>GET</td>
+          <td>Show edit form for one dog</td>
+        </tr>
+        <tr class="table-warning">
+          <td>Update</td>
+          <td>/dogs/:id</td>
+          <td>PUT</td>
+          <td>Update a particular dog, then redirect somewhere</td>
+        </tr>
+        <tr class="table-danger">
+          <td>Destroy</td>
+          <td>/dogs/:id</td>
+          <td>DELETE</td>
+          <td>Delete a particular dog, then redirect somewhere</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+  
+  <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+</body>
+</html>
