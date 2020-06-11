@@ -3,4 +3,4 @@
 	url = git@github.com:haozihong/yelp-camp.git
 [submodule "deploying-demo"]
 	path = DeployingDemo
-	url = https://git.heroku.com/sheltered-savannah-36578.git
+	url = git@github.com:haozihong/deploying-demo.git
